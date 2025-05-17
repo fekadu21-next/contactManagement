@@ -233,7 +233,7 @@ public class AddGroup extends javax.swing.JFrame {
                     //System.out.println("Status: "+status);
                     if (status) {
                         JOptionPane.showMessageDialog(null, "One Record Save !! ");
-                        btnSave.setEnabled(false);
+                        btnSave.setEnabled(true);
                     } else {
                         JOptionPane.showMessageDialog(null, "Record Not Save !! ");
                         btnSave.setEnabled(false);
